@@ -1,0 +1,2 @@
+# birdtest
+firstcmakeproject
