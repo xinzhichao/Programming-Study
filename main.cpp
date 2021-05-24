@@ -1,8 +1,24 @@
-#include <iostream>
+#include<iostream>
+#include <limits>
+
 using namespace std;
-int main() {
 
-    cout << "This is the first code!" << endl;
+typedef enum{
+    red =10,
+    blue,
+    green
+}haha_enum;
+bool i = false;
+int main()
+{
 
-    return 0;
+    haha_enum haha;
+    //haha = blue;
+    cout << "***************" << endl;
+    cout << '\t'<< haha <<endl;
+    if(i == false){
+        cout << '\t'<< i <<endl;
+    }
+    cout << "***************" << endl;
+
 }
